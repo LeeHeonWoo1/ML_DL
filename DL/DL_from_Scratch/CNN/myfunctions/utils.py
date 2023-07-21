@@ -37,7 +37,7 @@ def col2im(col, input_shape, filter_h, filter_w, stride=1, pad=0):
     Parameters
     ----------
     col : 2차원 배열(입력 데이터)
-    input_shape : 원래 이미지 데이터의 형상（예：(10, 1, 28, 28)）
+    input_shape : 원래 이미지 데이터의 형상（예：(10, 1, 28, 28)
     filter_h : 필터의 높이
     filter_w : 필터의 너비
     stride : 스트라이드
