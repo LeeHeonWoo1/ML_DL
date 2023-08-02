@@ -9,4 +9,6 @@ train-labels-idx1-ubyte.gz
 mnist.pkl
 housing.tgz
 catboost_info
+models
 model
+video_data
