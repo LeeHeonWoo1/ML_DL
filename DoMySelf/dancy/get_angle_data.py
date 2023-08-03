@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 import warnings
 import yt_dlp
-from typing import Union
 
 warnings.filterwarnings("ignore")
 
@@ -211,7 +210,6 @@ class GetData():
             angle_df = pd.DataFrame(angle_array, columns=columns, index=pd.Index(list(range(df.shape[0]))))
             angle_df["label"] = idx
             temp_list.append(angle_df)
-            
         result_angle_df = pd.concat(temp_list)
         result_angle_df.to_csv(self.save_csv_path, index=False, encoding="utf8", sep=",")
         print("데이터 수집 완료 !")
