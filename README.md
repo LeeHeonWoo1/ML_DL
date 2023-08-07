@@ -6,7 +6,8 @@
 ML_DL 
   |--- DL 
   |    |--- DL_from_Scratch : 밑바닥 부터 시작하는 딥러닝 
-  |    |--- Kaggle : 캐글 예제 
+  |    |--- Kaggle : 캐글 예제
+  |    |--- PDT : Python Deep-learning Tensorflow 교재 
   | 
   |--- DoMySelf : 혼자 진행한 잡다한 것들 
   |    |--- dancy : 안무 정확도 예측 
