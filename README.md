@@ -7,6 +7,7 @@ ML_DL
   |--- DL 
   |    |--- DL_from_Scratch : 밑바닥 부터 시작하는 딥러닝 
   |    |--- Kaggle : 캐글 예제
+  |    |--- HandOn : 핸즈온 - 딥러닝
   |    |--- PDT : Python Deep-learning Tensorflow 교재 
   | 
   |--- DoMySelf : 혼자 진행한 잡다한 것들 
@@ -19,7 +20,7 @@ ML_DL
   |--- ML 
   |    |--- CdEveryBody : 문학적으로 이해하기 위한 생활코딩 필기 
   |    |--- DataAnalysis : 데이터 분석 도구 
-  |    |--- HandsOn : 핸즈온-머신러닝  
+  |    |--- HandsOn : 핸즈온 - 머신러닝  
   |    |--- IMLP : 파이썬 라이브러리를 활용한 머신러닝 
   |    |--- Kaggle 
   |____|_____|--- BikeSharingDemand : 자전거 수요 예측 대회 
