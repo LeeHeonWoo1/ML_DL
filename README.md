@@ -10,9 +10,6 @@ ML_DL
   |    |--- HandOn : 핸즈온 - 딥러닝
   |    |--- PDT : Python Deep-learning Tensorflow 교재 
   | 
-  |--- DoMySelf : 혼자 진행한 잡다한 것들 
-  |    |--- dancy : 안무 정확도 예측 
-  | 
   |--- Kaggle 
   |    |--- CrabAge : 게 나이 예측 캐글 경진대회 
   |    |--- GenderRecognitionByVoice : 음성을 통한 성별 분류 예제 
