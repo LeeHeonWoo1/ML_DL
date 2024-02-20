@@ -6,9 +6,16 @@ def sendCmd(cmd):
     data = {'go': cmd}
     requests.get(action_uri, params=data)
 
-esp_ip = "IP_Address"
-action_uri = '{}:port/?'.format(esp_ip)
-host = "{}:port/?".format(esp_ip)
+esp_ip = "http://192.168.4.1"
+action_uri = '{}:80/action'.format(esp_ip)
+host = "{}:81/stream".format(esp_ip)
+
+keyword_dict = {
+    "forward" : "move to forward",
+    "backward" : "move to backward",
+    "left" : "move to left site",
+    "right" : "move to right site"
+    }
 
 try:
     while True:
@@ -16,7 +23,7 @@ try:
         
         with sr.Microphone(device_index=1) as source:
             print("음성 입력 중입니다")
-            r.adjust_for_ambient_noise(source, duration=1)
+            r.adjust_for_ambient_noise(source)
             audio = r.listen(source, timeout=5, phrase_time_limit=3)                                          
             try:
                 data = r.recognize_sphinx(audio)
